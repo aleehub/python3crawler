@@ -5,6 +5,8 @@ import requests
 # 影片排名
 pattern1 = re.compile('<dd>.*?board-index.*?>(.*?)</i>', re.S)
 
+print(pattern1)
+
 # 图片地址
 pattern2 = re.compile('data-src="(.*?)"', re.S)
 

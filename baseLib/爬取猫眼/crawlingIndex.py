@@ -48,6 +48,49 @@ def main(offset):
 
     url = 'http://maoyan.com/board/4?offset='+str(offset)
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     html = get_one_page(url)
 
     for item in parse_one_page(html):
